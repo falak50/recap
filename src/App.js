@@ -31,7 +31,7 @@ function App() {
 
       {/* nayok section */}
       {
-        nayoks.map(x => <Nayok name={x.name} email={x.email} id={x.id} ></Nayok>)
+        nayoks.map(x => <Nayok name={x.name} key={x.id} email={x.email} id={x.id} ></Nayok>)
       }
 
 
